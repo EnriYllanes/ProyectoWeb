@@ -1,0 +1,94 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* estilos de header */
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+}
+
+header img {
+    width: 10%;
+    height: 5%;
+}
+
+/* clases a h2 dentro de main*/
+.text-center {
+    text-decoration: underline;
+}
+
+h1 {
+    color: rgb(67, 67, 67);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+img {
+    width: 400px;
+    height: 400px;
+}
+
+h2 {
+    color: rgb(67, 67, 67);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p {
+    color: rgb(67, 67, 67);
+}
+
+main {
+    text-align: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 25%);
+}
+
+a {
+    color: bisque;
+}
+
+/* estilos de section */
+section {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+section div {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+section div img {
+    width: 20%;
+    height: 20%;
+}
+
+/* footer */
+footer {
+    color:#434343 ;
+    text-align: center;
+}
+
+/* estilos para tablet */
+@media screen and (min-width: 600px){
+    header{
+        justify-content: space-between;
+    }
+
+    main{
+        grid-template-columns: repeat(2, 1fr) ;
+        grid-template-rows: repeat(2, 40%) ;
+    }
+    }

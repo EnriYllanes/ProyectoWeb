@@ -18,10 +18,10 @@
     <header>
 
         <!-- logo -->
-        <img src="../img/logo1-copia.png" alt="">
+        <img src="../img/logo1-copia.png" alt="Logo Selecto">
 
         <!-- codigo de bootstrap -->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
@@ -31,7 +31,7 @@
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                            <a class="nav-link" aria-current="page" href="../index.html">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./remeras.html">Remeras</a>
@@ -53,57 +53,67 @@
 
     <!-- contenido principal -->
     <main>
-        <h1>
-            REMERAS
-        </h1>
+        <h1> REMERAS </h1>
 
         <h2 class="text-center"> Oversize </h2>
 
-        <img src="../img/2-0.jpg" alt="">
-        <img src="../img/2-1.jpg" alt="">
-        <img src="../img/2-2.jpg" alt="">
+        <div class="row g-3">
+            <div class="col-md-4"><img src="../img/2-0.jpg" alt=""></div>
+            <div class="col-md-4"><img src="../img/2-1.jpg" alt=""></div>
+            <div class="col-md-4"><img src="../img/2-2.jpg" alt=""></div>
+        </div>
+
+        <p>
+            Las remeras de calidad oversize son perfectas para quienes buscan comodidad sin sacrificar estilo. 
+            Su diseño amplio y relajado permite libertad de movimiento y un look moderno y desenfadado. 
+            Además, están hechas con materiales duraderos y suaves, ideales para usar en cualquier momento.
+        </p>
 
         <h2 class="text-center"> Regulares </h2>
 
-        <img src="../img/2-3.jpg" alt="">
-        <img src="../img/2-4.jpg" alt="">
-        <img src="../img/2-5.jpg" alt="">
+        <div class="row g-3">
+            <div class="col-md-4"><img src="../img/2-3.jpg" alt=""></div>
+            <div class="col-md-4"><img src="../img/2-4.jpg" alt=""></div>
+            <div class="col-md-4"><img src="../img/2-5.jpg" alt=""></div>
+        </div>
 
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim magni, assumenda dolorum iusto aliquid illum!
-            Alias sed enim optio tenetur repellendus! Ipsa repudiandae itaque aliquam consectetur, animi iusto deserunt
-            ipsum!
+            Las remeras regulares son prendas de vestir básicas y versátiles, diseñadas para ofrecer un ajuste cómodo 
+            y clásico. Generalmente, tienen un corte recto que no es ni demasiado ajustado ni demasiado suelto, lo que 
+            las hace ideales para uso diario. Suelen estar hechas de algodón u otros materiales suaves, y pueden venir 
+            en una variedad de colores y estilos. Son perfectas para combinar con diferentes prendas y crear looks casuales 
+            y cómodos.
         </p>
+
     </main>
 
-    <!-- contenido generico -->
-    <section>
+    <!-- Contenido Generico -->
+    <section class="my-1">
         <div>
-            <img src="../img/insta.jpg" alt="">
-            <h2>REDES SOCIALES</h2>
-            <p> Instagram: @Selecto.LR </p>
+            <img src="../img/insta.jpg" alt="Instagram">
+            <p>Instagram: @Selecto.LR</p>
             <p>Facebook: SelectoLR</p>
         </div>
         <div>
-            <img src="../img/telefono.png" alt="">
-            <h2>CONTACTANOS</h2>
+            <img src="../img/telefono.png" alt="Teléfono">
             <p>Tel: 3804 4042424</p>
             <p>WhatsApp: 3804010203</p>
         </div>
-        <div>
-            <img src="../img/ubicacion1.png" alt="">
-            <h2>NOS UBICAMOS</h2>
+        <div class>
+            <img src="../img/ubicacion1.png" alt="Ubicación">
             <p>La Rioja - Centro, Rivadavia 611</p>
             <p>Villa Union - Av Peron 7412</p>
         </div>
     </section>
 
 
-    <!-- pie de pagina -->
-    <footer>
-        <h3>
-            Suscribite a nuestro newsletter y recibí todas las novedades y ofertas exclusivas...
-        </h3>
+    <!-- footer - pie de pagina -->
+    <footer class="bg-dark text-center p-4">
+        <p>Suscribite a nuestro newsletter y recibí todas las novedades y ofertas exclusivas.</p>
+        <form class="d-flex justify-content-center mt-3">
+            <input type="email" class="form-control w-25 me-2" placeholder="Tu email" required>
+            <button type="submit" class="btn btn-primary">Suscribirme</button>
+        </form>
     </footer>
 
     <!-- script de bootstraps -->

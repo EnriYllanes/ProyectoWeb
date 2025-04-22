@@ -21,7 +21,7 @@
         <img src="../img/logo1-copia.png" alt="">
 
         <!-- codigo de bootstrap -->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
@@ -31,7 +31,7 @@
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                            <a class="nav-link" aria-current="page" href="../index.html">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./remeras.html">Remeras</a>
@@ -58,46 +58,63 @@
         </h1>
 
         <h2 class="text-center">
-            Todo en Pantalones
+            Casuales que combinan con tus salidas
         </h2>
 
-        <img src="../img/3-0.jpg" alt="">
-        <img src="../img/3-1.jpg" alt="">
-        <img src="../img/3-2.jpg" alt="">
+        <div class="row g-3">
+            <div class="col-md-4"><img src="../img/3-0.jpg" alt=""></div>
+            <div class="col-md-4"><img src="../img/3-1.jpg" alt=""></div>
+            <div class="col-md-4"><img src="../img/3-2.jpg" alt=""></div>
+        </div>
 
+        <p>Los pantalones diarios son súper cómodos y versátiles, perfectos para lucir bien sin complicaciones en cualquier momento del día.</p>
+        
+        <h2 class="text-center">
+            Cargos y Mom 2025
+        </h2>
+
+        <div class="row g-3">
+            <div class="col-md-4"><img src="../img/cargo1.jpg" alt=""></div>
+            <div class="col-md-4"><img src="../img/cargo2.jpg" alt=""></div>
+            <div class="col-md-4"><img src="../img/mom1.jpg" alt=""></div>
+        </div>
+        
         <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident omnis ducimus exercitationem deserunt
-            architecto quod id expedita, molestiae odio delectus sapiente ab? Veritatis tempore maiores quibusdam autem,
-            officia similique sequi.
+            Los pantalones vaqueros tipo "mom" y "cargos" son una excelente opción para quienes 
+            buscan comodidad y estilo. Los jeans "mom" tienen un corte relajado en la cadera y las piernas, 
+            con una cintura alta que favorece la figura y brinda comodidad durante todo el día. Por otro lado, 
+            los pantalones "cargos" son versátiles, con bolsillos en los laterales que aportan un toque casual y práctico, 
+            además de ser cómodos gracias a sus materiales resistentes y suaves. Ambos estilos combinan tendencia y funcionalidad, 
+            perfectos para un look moderno y cómodo.
         </p>
     </main>
 
-    <!-- contenido generico -->
-    <section>
-        <div>
-            <img src="../img/insta.jpg" alt="">
-            <h2>REDES SOCIALES</h2>
-            <p> Instagram: @Selecto.LR </p>
-            <p>Facebook: SelectoLR</p>
-        </div>
-        <div>
-            <img src="../img/telefono.png" alt="">
-            <h2>CONTACTANOS</h2>
-            <p>Tel: 3804 4042424</p>
-            <p>WhatsApp: 3804010203</p>
-        </div>
-        <div>
-            <img src="../img/ubicacion1.png" alt="">
-            <h2>NOS UBICAMOS</h2>
-            <p>La Rioja - Centro, Rivadavia 611</p>
-            <p>Villa Union - Av Peron 7412</p>
-        </div>
-    </section>
+   <!-- Contenido Generico -->
+   <section class="my-1">
+    <div>
+        <img src="../img/insta.jpg" alt="Instagram">
+        <p>Instagram: @Selecto.LR</p>
+        <p>Facebook: SelectoLR</p>
+    </div>
+    <div>
+        <img src="../img/telefono.png" alt="Teléfono">
+        <p>Tel: 3804 4042424</p>
+        <p>WhatsApp: 3804010203</p>
+    </div>
+    <div class>
+        <img src="../img/ubicacion1.png" alt="Ubicación">
+        <p>La Rioja - Centro, Rivadavia 611</p>
+        <p>Villa Union - Av Peron 7412</p>
+    </div>
+</section>
 
-    <footer>
-        <h3>
-            Suscribite a nuestro newsletter y recibí todas las novedades y ofertas exclusivas...
-        </h3>
+    <!-- footer - pie de pagina -->
+    <footer class="bg-dark text-center p-4">
+        <p>Suscribite a nuestro newsletter y recibí todas las novedades y ofertas exclusivas.</p>
+        <form class="d-flex justify-content-center mt-3">
+            <input type="email" class="form-control w-25 me-2" placeholder="Tu email" required>
+            <button type="submit" class="btn btn-primary">Suscribirme</button>
+        </form>
     </footer>
 
     <!-- script de bootstraps -->

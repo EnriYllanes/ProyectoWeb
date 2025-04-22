@@ -21,6 +21,15 @@ header {
     padding: 1rem;
 }
 
+.header-1{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;    
+}
+
 header img {
     width: 100px;
     height: auto;

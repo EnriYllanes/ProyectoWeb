@@ -11,6 +11,16 @@ body {
     font-family: sans-serif;
 }
 
+/* Media Responsive */
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 18px;
+    }
+    header {
+        display: flex;
+    }
+}
+
 /* === HEADER === */
 header {
     background-color: black;
@@ -19,15 +29,6 @@ header {
     justify-content: center;
     align-items: center;
     padding: 1rem;
-}
-
-.header-1 {
-    background-color: black;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;    
 }
 
 header img {

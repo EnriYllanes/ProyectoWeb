@@ -15,11 +15,21 @@ body {
   }
 }
     /* MEDIA QUERY PARA SIMULAR EN TABLET */
-@media (max-width: 789px) {
-  body {
-    font-size: 18px;
-  }
-}
+    @media (max-width: 789px) {
+      /* Tus estilos para pantallas de 789px o menos */
+      body {
+        background-color: lightgray;
+      }
+    
+      .contenedor {
+        flex-direction: column;
+        padding: 10px;
+      }
+    
+      h1 {
+        font-size: 20px;
+      }
+    }
 
 header {
   background-color: black;
